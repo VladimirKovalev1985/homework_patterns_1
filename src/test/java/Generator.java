@@ -14,7 +14,7 @@ public class Generator {
     }
 
     public static String generateCity(String locale){
-        String[] Cities = new String[]{"Санкт-Петербург", "Омск", "Шерегеш", "Новосибирск", "Уфа", "Москва"};
+        String[] Cities = new String[]{"Санкт-Петербург", "Омск", "Новосибирск", "Уфа", "Москва"};
         int city = (int) Math.floor(Math.random() * Cities.length);
         return Cities[city];
     }
